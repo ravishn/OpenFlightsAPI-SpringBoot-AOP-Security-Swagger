@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - FlightControllerTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>FlightControllerTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.foxtel.spring.demo.test.html">com.foxtel.spring.demo.test</a> &gt; FlightControllerTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">7</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.559s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">getAllFlightBetweenAirports_EmptyResponse_Test</td>
+<td class="success">0.036s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getAllFlightBetweenAirports_Ok_Test</td>
+<td class="success">0.187s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getAllFlightsBetweenAirports_NotFound_Test</td>
+<td class="success">0.183s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getAllFlightsIn_EmptyResponse_Test</td>
+<td class="success">0.046s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getAllFlightsIn_Ok_Test</td>
+<td class="success">0.036s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getAllFlightsOut_EmptyResponse_Test</td>
+<td class="success">0.036s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getAllFlightsOut_Ok_Test</td>
+<td class="success">0.035s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>11:33:37.278 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.foxtel.spring.demo.test.FlightControllerTest]
+11:33:37.278 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.foxtel.spring.demo.test.FlightControllerTest]
+11:33:37.279 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.foxtel.spring.demo.test.FlightControllerTest]
+11:33:37.279 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.foxtel.spring.demo.test.FlightControllerTest]
+11:33:37.283 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@78799daf testClass = FlightControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1ca586b testClass = FlightControllerTest, locations = '{}', classes = '{class com.foxtel.spring.demo.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@78af1b48, [ImportsContextCustomizer@67e8fcec key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3f5678f2, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@27315585, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@56c32575], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+11:33:37.285 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.foxtel.spring.demo.test.FlightControllerTest]
+11:33:37.286 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.foxtel.spring.demo.test.FlightControllerTest]
+11:33:37.318 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+LOGBACK: No context given for c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@53279950
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.1.RELEASE)
+
+2020-02-07 11:33:37.944  INFO 30476 --- [    Test worker] c.f.s.demo.test.FlightControllerTest     : Starting FlightControllerTest on LT2YF7GW2 with PID 30476 (started by nagarajr in C:\VisualStudioCodeWorkspace\demo\OpenFlightsAPI-SpringBoot-AOP-Security-Swagger-master)
+2020-02-07 11:33:37.947 DEBUG 30476 --- [    Test worker] c.f.s.demo.test.FlightControllerTest     : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-07 11:33:37.950  INFO 30476 --- [    Test worker] c.f.s.demo.test.FlightControllerTest     : No active profile set, falling back to default profiles: default
+2020-02-07 11:33:39.628  INFO 30476 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-07 11:33:39.632  INFO 30476 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-02-07 11:33:39.681  INFO 30476 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36ms. Found 0 repository interfaces.
+2020-02-07 11:33:39.698  INFO 30476 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-07 11:33:39.699  INFO 30476 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-02-07 11:33:39.716  INFO 30476 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2020-02-07 11:33:40.912  INFO 30476 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b7a7b52e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-07 11:33:41.093  INFO 30476 --- [    Test worker] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-02-07 11:33:41.176  INFO 30476 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-07 11:33:41.606  INFO 30476 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-07 11:33:41.950  INFO 30476 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-07 11:33:43.577  INFO 30476 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-07 11:33:43.796  INFO 30476 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-02-07 11:33:44.175  INFO 30476 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-07 11:33:44.494  INFO 30476 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-02-07 11:33:45.064  INFO 30476 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-07 11:33:45.077  INFO 30476 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-07 11:33:46.875  INFO 30476 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoint(s) beneath base path '/flights'
+2020-02-07 11:33:47.734  INFO 30476 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b376122, org.springframework.security.web.context.SecurityContextPersistenceFilter@18fe4c5b, org.springframework.security.web.header.HeaderWriterFilter@163af56f, org.springframework.security.web.csrf.CsrfFilter@73bb0638, org.springframework.security.web.authentication.logout.LogoutFilter@3f5d6080, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4956bce5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42dc9ed6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@68b9f1a3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@21ed0d24, org.springframework.security.web.session.SessionManagementFilter@7d068319, org.springframework.security.web.access.ExceptionTranslationFilter@4d0b4d93, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@141709b6]
+2020-02-07 11:33:47.845  INFO 30476 --- [    Test worker] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-07 11:33:48.874  WARN 30476 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-07 11:33:49.966  INFO 30476 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-02-07 11:33:49.967  INFO 30476 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-02-07 11:33:50.006  INFO 30476 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 38 ms
+2020-02-07 11:33:50.063  INFO 30476 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-02-07 11:33:50.097  INFO 30476 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-02-07 11:33:50.150  INFO 30476 --- [    Test worker] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-02-07 11:33:50.341  INFO 30476 --- [    Test worker] c.f.s.demo.test.FlightControllerTest     : Started FlightControllerTest in 13.009 seconds (JVM running for 14.509)
+2020-02-07 11:33:50.557  WARN 30476 --- [    Test worker] o.s.web.servlet.PageNotFound             : No mapping for GET /flights/route/foo
+2020-02-07 11:33:50.615  INFO 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST URI /flights/route/source/3393/dest/3361
+2020-02-07 11:33:50.616  INFO 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST method GET
+2020-02-07 11:33:50.616 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session ID 2
+2020-02-07 11:33:50.616 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session creation time 1581035630586
+2020-02-07 11:33:50.616 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session last accessed time 1581035630586
+2020-02-07 11:33:50.616 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session creation time 1581035630586
+2020-02-07 11:33:50.617 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session servlet context 
+2020-02-07 11:33:50.617 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session servlet context server info MockServletContext
+2020-02-07 11:33:50.617 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session servlet context timeout 0 minutes
+2020-02-07 11:33:50.617 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : Reuqest time out set at 250 ms
+2020-02-07 11:33:50.617 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : StopWatch 'FlightControllerAspect': running time = 2077200 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+002077200  100%  getFlightsFromAndToAirports
+
+2020-02-07 11:33:50.618 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : API Running time: 2
+2020-02-07 11:33:50.618  INFO 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : HTTP Status: 200
+2020-02-07 11:33:50.630  INFO 30476 --- [    Test worker] c.f.s.demo.controller.FlightController   : API called for all flights from 3393 to airport 3361
+2020-02-07 11:33:50.631 DEBUG 30476 --- [    Test worker] c.f.s.demo.aspects.FlightServiceAspect   : Service requested for flights data com.foxtel.spring.demo.service.FlightService
+2020-02-07 11:33:50.637 DEBUG 30476 --- [    Test worker] c.f.spring.demo.service.FlightService    : Service request for flights between 3393 and 3361
+2020-02-07 11:33:50.696 DEBUG 30476 --- [    Test worker] c.f.s.demo.aspects.FlightServiceAspect   : Service successfully returned flights data 
+2020-02-07 11:33:50.774  INFO 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST URI /flights/in/airport/12bc6b498-27c3-4c9a-abee-ca845f5592f4
+2020-02-07 11:33:50.774  INFO 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST method GET
+2020-02-07 11:33:50.775 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session ID 3
+2020-02-07 11:33:50.775 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session creation time 1581035630773
+2020-02-07 11:33:50.775 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session last accessed time 1581035630773
+2020-02-07 11:33:50.775 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session creation time 1581035630773
+2020-02-07 11:33:50.776 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session servlet context 
+2020-02-07 11:33:50.776 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session servlet context server info MockServletContext
+2020-02-07 11:33:50.776 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session servlet context timeout 0 minutes
+2020-02-07 11:33:50.777 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : Reuqest time out set at 250 ms
+2020-02-07 11:33:50.777 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : StopWatch 'FlightControllerAspect': running time = 2721000 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+002721000  100%  getAllFlightsIn
+
+2020-02-07 11:33:50.777 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : API Running time: 2
+2020-02-07 11:33:50.777  INFO 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : HTTP Status: 200
+2020-02-07 11:33:50.777  INFO 30476 --- [    Test worker] c.f.s.demo.controller.FlightController   : API called for all flights to 12bc6b498-27c3-4c9a-abee-ca845f5592f4
+2020-02-07 11:33:50.777 DEBUG 30476 --- [    Test worker] c.f.s.demo.aspects.FlightServiceAspect   : Service requested for flights data com.foxtel.spring.demo.service.FlightService
+2020-02-07 11:33:50.778 DEBUG 30476 --- [    Test worker] c.f.spring.demo.service.FlightService    : Service request for flights to 12bc6b498-27c3-4c9a-abee-ca845f5592f4
+2020-02-07 11:33:50.807 DEBUG 30476 --- [    Test worker] c.f.s.demo.aspects.FlightServiceAspect   : Service successfully returned flights data 
+2020-02-07 11:33:50.827  INFO 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST URI /flights/out/airport/1e0ef87d7-c568-4aa6-9743-507bb5beb6d3
+2020-02-07 11:33:50.828  INFO 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST method GET
+2020-02-07 11:33:50.828 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session ID 4
+2020-02-07 11:33:50.828 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session creation time 1581035630826
+2020-02-07 11:33:50.828 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session last accessed time 1581035630826
+2020-02-07 11:33:50.828 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session creation time 1581035630826
+2020-02-07 11:33:50.828 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session servlet context 
+2020-02-07 11:33:50.828 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session servlet context server info MockServletContext
+2020-02-07 11:33:50.828 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session servlet context timeout 0 minutes
+2020-02-07 11:33:50.829 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : Reuqest time out set at 250 ms
+2020-02-07 11:33:50.829 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : StopWatch 'FlightControllerAspect': running time = 1526700 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+001526700  100%  getAllFlightsOut
+
+2020-02-07 11:33:50.829 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : API Running time: 1
+2020-02-07 11:33:50.829  INFO 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : HTTP Status: 200
+2020-02-07 11:33:50.829  INFO 30476 --- [    Test worker] c.f.s.demo.controller.FlightController   : API called for all flights from 1e0ef87d7-c568-4aa6-9743-507bb5beb6d3
+2020-02-07 11:33:50.830 DEBUG 30476 --- [    Test worker] c.f.s.demo.aspects.FlightServiceAspect   : Service requested for flights data com.foxtel.spring.demo.service.FlightService
+2020-02-07 11:33:50.830 DEBUG 30476 --- [    Test worker] c.f.spring.demo.service.FlightService    : Service request for flights from 1e0ef87d7-c568-4aa6-9743-507bb5beb6d3
+2020-02-07 11:33:50.850 DEBUG 30476 --- [    Test worker] c.f.s.demo.aspects.FlightServiceAspect   : Service successfully returned flights data 
+2020-02-07 11:33:50.859  INFO 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST URI /flights/in/airport/2290
+2020-02-07 11:33:50.859  INFO 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST method GET
+2020-02-07 11:33:50.860 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session ID 5
+2020-02-07 11:33:50.860 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session creation time 1581035630857
+2020-02-07 11:33:50.860 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session last accessed time 1581035630857
+2020-02-07 11:33:50.861 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session creation time 1581035630857
+2020-02-07 11:33:50.861 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session servlet context 
+2020-02-07 11:33:50.861 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session servlet context server info MockServletContext
+2020-02-07 11:33:50.861 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session servlet context timeout 0 minutes
+2020-02-07 11:33:50.862 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : Reuqest time out set at 250 ms
+2020-02-07 11:33:50.862 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : StopWatch 'FlightControllerAspect': running time = 2862900 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+002862900  100%  getAllFlightsIn
+
+2020-02-07 11:33:50.862 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : API Running time: 2
+2020-02-07 11:33:50.863  INFO 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : HTTP Status: 200
+2020-02-07 11:33:50.863  INFO 30476 --- [    Test worker] c.f.s.demo.controller.FlightController   : API called for all flights to 2290
+2020-02-07 11:33:50.863 DEBUG 30476 --- [    Test worker] c.f.s.demo.aspects.FlightServiceAspect   : Service requested for flights data com.foxtel.spring.demo.service.FlightService
+2020-02-07 11:33:50.863 DEBUG 30476 --- [    Test worker] c.f.spring.demo.service.FlightService    : Service request for flights to 2290
+2020-02-07 11:33:50.880 DEBUG 30476 --- [    Test worker] c.f.s.demo.aspects.FlightServiceAspect   : Service successfully returned flights data 
+2020-02-07 11:33:50.895  INFO 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST URI /flights/route/source/1/dest/1
+2020-02-07 11:33:50.896  INFO 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST method GET
+2020-02-07 11:33:50.896 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session ID 6
+2020-02-07 11:33:50.896 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session creation time 1581035630894
+2020-02-07 11:33:50.896 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session last accessed time 1581035630894
+2020-02-07 11:33:50.896 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session creation time 1581035630894
+2020-02-07 11:33:50.896 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session servlet context 
+2020-02-07 11:33:50.896 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session servlet context server info MockServletContext
+2020-02-07 11:33:50.896 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session servlet context timeout 0 minutes
+2020-02-07 11:33:50.896 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : Reuqest time out set at 250 ms
+2020-02-07 11:33:50.896 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : StopWatch 'FlightControllerAspect': running time = 1025700 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+001025700  100%  getFlightsFromAndToAirports
+
+2020-02-07 11:33:50.897 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : API Running time: 1
+2020-02-07 11:33:50.897  INFO 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : HTTP Status: 200
+2020-02-07 11:33:50.897  INFO 30476 --- [    Test worker] c.f.s.demo.controller.FlightController   : API called for all flights from 1 to airport 1
+2020-02-07 11:33:50.897 DEBUG 30476 --- [    Test worker] c.f.s.demo.aspects.FlightServiceAspect   : Service requested for flights data com.foxtel.spring.demo.service.FlightService
+2020-02-07 11:33:50.897 DEBUG 30476 --- [    Test worker] c.f.spring.demo.service.FlightService    : Service request for flights between 1 and 1
+2020-02-07 11:33:50.915 DEBUG 30476 --- [    Test worker] c.f.s.demo.aspects.FlightServiceAspect   : Service successfully returned flights data 
+2020-02-07 11:33:50.933  INFO 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST URI /flights/out/airport/2290
+2020-02-07 11:33:50.933  INFO 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST method GET
+2020-02-07 11:33:50.933 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session ID 7
+2020-02-07 11:33:50.933 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session creation time 1581035630931
+2020-02-07 11:33:50.934 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session last accessed time 1581035630931
+2020-02-07 11:33:50.934 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session creation time 1581035630931
+2020-02-07 11:33:50.934 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session servlet context 
+2020-02-07 11:33:50.934 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session servlet context server info MockServletContext
+2020-02-07 11:33:50.934 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : REQUEST session servlet context timeout 0 minutes
+2020-02-07 11:33:50.934 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : Reuqest time out set at 250 ms
+2020-02-07 11:33:50.934 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : StopWatch 'FlightControllerAspect': running time = 849600 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000849600  100%  getAllFlightsOut
+
+2020-02-07 11:33:50.939 DEBUG 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : API Running time: 0
+2020-02-07 11:33:50.939  INFO 30476 --- [    Test worker] c.f.s.d.aspects.FlightControllerAspect   : HTTP Status: 200
+2020-02-07 11:33:50.939  INFO 30476 --- [    Test worker] c.f.s.demo.controller.FlightController   : API called for all flights from 2290
+2020-02-07 11:33:50.940 DEBUG 30476 --- [    Test worker] c.f.s.demo.aspects.FlightServiceAspect   : Service requested for flights data com.foxtel.spring.demo.service.FlightService
+2020-02-07 11:33:50.940 DEBUG 30476 --- [    Test worker] c.f.spring.demo.service.FlightService    : Service request for flights from 2290
+2020-02-07 11:33:50.950 DEBUG 30476 --- [    Test worker] c.f.s.demo.aspects.FlightServiceAspect   : Service successfully returned flights data 
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.4</a> at 07/02/2020 11:33:51 AM</p>
+</div>
+</div>
+</body>
+</html>
