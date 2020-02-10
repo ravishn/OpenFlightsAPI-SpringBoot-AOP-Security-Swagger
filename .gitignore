@@ -8,6 +8,8 @@
 .project
 .classpath
 factoryConfiguration.json
+.settings
+.gradle
 
 ### Java ###
 # Compiled class file
