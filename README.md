@@ -8,9 +8,9 @@ https://openflights.org/data.html
 2. Download and read the .dat files
 3. Define a schema and store the data into an in-memory database
 4. Provide API' for
-    i. Flights flying into a specified airport
-    ii. Flights flyout out of a specified airport
-    iii. Flights between 2 specified airports
+    1. Flights flying into a specified airport
+    2. Flights flyout out of a specified airport
+    3. Flights between 2 specified airports
 5. Authenticate and authorise endpoints using Basic Authorisation(username/password)
 6. Document API using Swagger
 
