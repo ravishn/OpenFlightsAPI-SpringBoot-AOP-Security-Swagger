@@ -1,2 +1,2 @@
 FROM openjdk:8-jdk-alpine
-ENTRYPOINT ["echo", "hello world"]
+ENTRYPOINT ["java","-jar","/openflightsapi.jar"]
