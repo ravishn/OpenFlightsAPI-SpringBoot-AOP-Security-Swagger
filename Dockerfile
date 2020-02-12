@@ -1,2 +1,2 @@
-FROM openjdk:8-jdk-alpine
-ENTRYPOINT ["gradlew" "bootRun"]
+FROM gradle:4.7.0-jdk8-alpine AS build
+CMD ["gradlew" "bootRun"]
