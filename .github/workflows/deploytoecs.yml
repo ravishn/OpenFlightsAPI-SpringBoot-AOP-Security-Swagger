@@ -69,6 +69,6 @@ jobs:
       uses: aws-actions/amazon-ecs-deploy-task-definition@v1
       with:
         task-definition: ${{ secrets.TASK_DEF_ARN }}
-        service: openfligthsapis-app-service
+        service: OpenFlights_Service
         cluster: flightsapicluster
         wait-for-service-stability: false
