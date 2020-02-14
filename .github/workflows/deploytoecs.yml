@@ -55,7 +55,7 @@ jobs:
       id: build-image
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-        ECR_REPOSITORY: 972788069219.dkr.ecr.ap-southeast-2.amazonaws.com/openflightsapi/registryrepo
+        ECR_REPOSITORY: openflightsapi/registryrepo
         IMAGE_TAG: ${{ github.sha }}
       run: |
         # Build a docker container and
