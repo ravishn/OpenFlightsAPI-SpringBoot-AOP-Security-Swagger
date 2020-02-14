@@ -76,7 +76,7 @@ jobs:
     - name: Deploy Amazon ECS task definition
       uses: aws-actions/amazon-ecs-deploy-task-definition@v1
       with:
-        task-definition: ${{ secrets.TASK_DEF_ARN }}
+        task-definition: ${{ steps.task-def.outputs.task-definition }}
         service: OpenFlights_Service
         cluster: flightsapicluster
         wait-for-service-stability: false
