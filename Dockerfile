@@ -1,7 +1,6 @@
 FROM openjdk:8-jdk-alpine
-USER spring:spring
-ARG DEPENDENCY=target/dependency
-COPY ${DEPENDENCY}/BOOT-INF/lib /app/lib
-COPY ${DEPENDENCY}/META-INF /app/META-INF
-COPY ${DEPENDENCY}/BOOT-INF/classes /app
-ENTRYPOINT ["java","-cp","app:app/lib/*","openflightsapi.Application"]
+VOLUME /tmp
+EXPOSE 8080
+ARG JAR_FILE=target/openflightsapi-docker-1.0.0.jar
+ADD ${JAR_FILE} openflightsapi.jar
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/openflightsapi.jar"]
