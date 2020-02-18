@@ -41,7 +41,6 @@ gradle-app.setting
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.nar
 *.ear
@@ -67,8 +66,5 @@ target/
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
-
-#Package exported from DockerFile
-!/libs/openflights*.jar
 
 # End of https://www.gitignore.io/api/java,java-web,code-java,visualstudiocode
