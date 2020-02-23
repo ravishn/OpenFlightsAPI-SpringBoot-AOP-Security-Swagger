@@ -5,8 +5,8 @@ plugins {
 }
 
 bootJar {
-    baseName = 'openflightsapi-docker'
-    version =  '1.0.1'
+    baseName = 'openflightsapi'
+    version =  '1.0.0'
 }
 
 group = 'com.foxtel.spring.demo'
