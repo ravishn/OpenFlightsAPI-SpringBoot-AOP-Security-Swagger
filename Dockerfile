@@ -11,6 +11,6 @@ EXPOSE 8080
 
 RUN mkdir /api
 
-COPY /build/libs/openflightsapi-docker-1.0.1.jar .
+COPY /build/libs/openflightsapi-docker-1.0.1.jar /api/openfligthsapi.jar
 
 ENTRYPOINT ["java", "-XX:+UnlockExperimentalVMOptions", "-XX:+UseCGroupMemoryLimitForHeap", "-Djava.security.egd=file:/dev/./urandom","-jar","/api/openfligthsapi.jar"]
