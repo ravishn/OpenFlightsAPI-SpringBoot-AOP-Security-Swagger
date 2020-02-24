@@ -6,11 +6,13 @@
 
 FROM openjdk:8-jdk-alpine
 
-WORKDIR /bin
+WORKDIR /src
+COPY /src ./src/
+
 EXPOSE 8080
 
 RUN mkdir /api
 
-COPY /build/libs/openflightsapi-docker-1.0.1.jar /api/openfligthsapi.jar
+COPY /build/libs/openflightsapi-1.0.0.jar /api/openfligthsapi.jar
 
 ENTRYPOINT ["java", "-XX:+UnlockExperimentalVMOptions", "-XX:+UseCGroupMemoryLimitForHeap", "-Djava.security.egd=file:/dev/./urandom","-jar","/api/openfligthsapi.jar"]
