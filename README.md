@@ -1,5 +1,5 @@
 # OpenFlightsAPI
-SpringBoot application integrated with OpenFlights API and AOP implementation for REST API security
+SpringBoot application integrated with OpenFlights data, secured by Spring Security and expose endpoints that provide Flights data.
 # OpenFlights API Specification
 https://openflights.org/data.html
 
