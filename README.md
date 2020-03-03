@@ -1,5 +1,5 @@
 # OpenFlightsAPI
-SpringBoot application integrated with OpenFlights data, secured by Spring Security and expose endpoints that provide Flights data.
+SpringBoot application integrated with OpenFlights data, secured by Spring Security and expose endpoints that provide Flights data based on airports.
 # OpenFlights API Specification
 https://openflights.org/data.html
 
