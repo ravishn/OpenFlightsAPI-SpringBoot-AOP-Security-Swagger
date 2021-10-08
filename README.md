@@ -136,3 +136,8 @@ Ex. http://localhost:8080/flights/route/3393/3361 should return the JSON respons
 This exposes the Swagger API documentation on to the Swagger UI endpoint
 2. Run the endpoint on the browser. This returns a HTML page where you can run the API's and test them out.
 http://localhost:8080/flights/api/docs/ui. This will redirect to default Swagger documentation UI page http://localhost:8080/swagger-ui.html#/
+
+# API hosting
+- This application has been hosted on Heroku and can be acccessed via this link - https://openfligthsapi.herokuapp.com/swagger-ui.html
+- API is authorised by username and password mentioned in the application.properties using Spring Security
+- Every merge from a PR triggers the deployment pipeline and hosts the new version of this API on Heroku
